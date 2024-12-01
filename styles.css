@@ -127,23 +127,50 @@
     justify-content: space-between;
     gap: 50px;
     background-color: #3882F6;
-    width: 80%; 
+    width: 100%; 
+    max-width: 80%;
     align-items: center;
     margin: 0 auto; 
     padding: 50px; 
     border-radius: 15px;
     color: white;
     margin-top: 30px;
+    flex-wrap: wrap;
+    position: relative;
 }
 .action-block .action-text {
     display: flex;
     flex-direction: column;
     gap: 10px;  
+    flex-grow: 1;
+    min-width: 0;
+    overflow: hidden;
 }
 .action-block .action-text p {
     font-size: 12px;
 }
 .action-block button {
     border: 3px solid rgb(255, 255, 255);
+    width: auto;
+    max-width: 200px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    align-self: center;
+    padding: 10px;
+}
+
+.action-block .action-button {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 100%;  
+    max-width: 150px; 
+}
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
 }
 
