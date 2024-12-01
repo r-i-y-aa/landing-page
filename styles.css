@@ -39,7 +39,7 @@
     width: 100%;
     flex-wrap: wrap;
     padding-bottom: 50px;
-    gap: 10px;
+    gap: 20px;
 }
 .title-image {
     
@@ -109,3 +109,16 @@
 .img-block p {
     color: rgb(122, 126, 134);
 }
+.quote-box h1{
+    font-weight: 300;
+}
+.quote-box {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-box h2 {
+    text-align: right;
+}
+
