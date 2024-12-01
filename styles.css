@@ -7,9 +7,11 @@
 }
 .top-page {
     background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 50px;
 }
 .header{
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +29,60 @@
 .header #taskbar li {
     padding: 10px;
     list-style-type: none;
+    color: #E5E7EB;
+}
+.webpage-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+.title-image {
+    
+    background-color: #767b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+.title-image p {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+.titles-text {
+    width: 50%;
+    padding-left: 58px;
+    display: flex;
+    flex-direction: column;
+}
+.titles-text p {
+    color: #E5E7EB;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.titles-text h1 {
+    font-size: 50px;
+}
+.titles-text button {
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+}
+.button-div {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
