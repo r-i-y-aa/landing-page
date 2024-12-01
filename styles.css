@@ -74,7 +74,7 @@
 .titles-text h1 {
     font-size: 50px;
 }
-.titles-text button {
+    .button {
     width: 100px;
     height: 37px;
     border-radius: 5px;
@@ -120,5 +120,30 @@
 }
 .quote-box h2 {
     text-align: right;
+}
+.action-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #3882F6;
+    width: 80%; 
+    align-items: center;
+    margin: 0 auto; 
+    padding: 50px; 
+    border-radius: 15px;
+    color: white;
+    margin-top: 30px;
+}
+.action-block .action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+.action-block .action-text p {
+    font-size: 12px;
+}
+.action-block button {
+    border: 3px solid rgb(255, 255, 255);
 }
 
